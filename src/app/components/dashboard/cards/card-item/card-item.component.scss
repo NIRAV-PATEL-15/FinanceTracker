@@ -1,0 +1,61 @@
+.card {
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    height: 120px;
+    width: 300px;
+    background: white;
+  
+  }
+  .card-block {
+    padding: 1rem;
+  }
+  
+  .card-container {
+    padding-left: 16px;
+    padding-right: 0;
+  }
+  
+  .card-container:first-child {
+    padding-left: 10px;
+  }
+  
+  .card-container:last-child {
+    padding-right: 10px;
+  }
+  
+  #tolincome {
+    color: #4d80f3;
+  }
+  
+  #tolexpense {
+    color: #fb6d9d;
+  }
+  
+  #tolbalance {
+    color: #81c868;
+  }
+  
+  #toltransaction {
+    color: #34d3eb;
+  }
+  .card-value {
+    margin-top: 10px;
+    font-family: verdana, "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .card-text {
+    font-family: verdana, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #6f6f6f !important;
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+  }
+  .expense-card, .income-card, .transaction-card, .balance-card {
+    -moz-border-radius: 3px;
+    background-clip: padding-box;
+    background: white;
+  }

@@ -1,0 +1,26 @@
+.income-expense {
+  display: flex;
+  justify-content: space-between;
+  .acc-balance-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 49%;
+    background: #ffffff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0,   0, 0.3);
+    border-radius: 4px;
+    padding: 4px;
+  }
+  .income-expense-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 49%;
+    background: #ffffff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 4px;
+  }
+}

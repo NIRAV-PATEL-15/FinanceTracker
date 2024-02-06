@@ -1,0 +1,23 @@
+<div class="recent-transaction-table-container">
+    <table class="recent-transaction-table">
+      <thead>
+        <tr class="header-row">
+          <td class="header-col">id</td>
+          <td class="header-col">firstName</td>
+          <td class="header-col">lastName</td>
+          <td class="header-col">action</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="data-row" *ngFor="let item of transactions">
+          <td class="data-col">{{item.id}}</td>
+          <td class="data-col">{{item.firstName}}</td>
+          <td class="data-col">{{item.lastName}}</td>
+          <td class="data-col">
+              <button type="button" class="btn-view-transaction" (click)="showDetails(item.id)">View</button>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>

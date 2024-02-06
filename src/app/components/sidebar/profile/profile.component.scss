@@ -1,0 +1,73 @@
+#profile-container {
+  height: 350px;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+}
+.img-container {
+  height: calc(100% - 150px);
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.name-container {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  margin-top: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  border: 2px solid white;
+}
+.user-name {
+  font-size: large;
+  text-transform: capitalize;
+  font-size: large;
+  color: black;
+  text-decoration: none;
+}
+.name-container:hover{
+  background-color: #d2eff3;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.wallet-amount-container {
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  margin-top: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.wallet-icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-right: 20px;
+  height: 70%;
+  .wallet-icon-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.wallet-amount {
+  align-self: center;
+  font-size: large;
+  color: black;
+}

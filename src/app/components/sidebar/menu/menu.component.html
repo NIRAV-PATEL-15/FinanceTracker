@@ -1,0 +1,17 @@
+<div id="menu-container" >
+    <div class="menu-items" *ngIf="isLoggedin;">
+        <div class="menu-item" *ngFor="let data of menuData">
+            <a class="menu-link" [routerLink]="data.path" routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact:true}">
+                <span class="menu-link-text">{{data.name}}</span>
+            </a>
+        </div>
+    </div>
+    <div class="menu-items" *ngIf="!isLoggedin"> 
+        <div class="menu-item">
+            <a class="menu-link" routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                <span class="menu-link-text">Login</span>
+            </a>
+        </div>
+      </div>`
+</div>

@@ -1,0 +1,50 @@
+.transaction-table-container {
+  background: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .transaction-table {
+    width: 95%;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 6px;
+    .header-row {
+      background-color: lightblue;
+      text-transform: capitalize;
+      .header-col {
+        padding: 8px 20px;
+      }
+    }
+    .data-row {
+      background-color: lightcyan;
+      .data-col {
+        padding: 5px 20px;
+        .btn-transaction-container {
+          display: flex;
+          justify-content: center;
+          color: white;
+          .btn-view-transaction {
+            margin: 0px 5px;
+            color: white;
+            align-self: center;
+            background-color: lightskyblue;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+          }
+          .btn-delete-transaction {
+            color: white;
+            border-radius: 4px;
+            align-self: center;
+            background-color: lightcoral;
+            border: none;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+  }
+}

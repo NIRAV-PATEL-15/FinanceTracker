@@ -1,0 +1,31 @@
+#dashboard {
+  width: calc(100% - 224px);
+  height: 100%;
+  margin-left: 220px;
+  padding: 2px;
+  background-color: #d2eff3;
+
+  .dashboard-container {
+    margin: 5px 5px 0px 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .cards-container {
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+    .expense-container {
+      margin-top: 20px;
+    }
+    .income-expense-container {
+      margin-top: 20px;
+    }
+    .recent-transactions-container {
+      margin-top: 20px;
+    }
+  }
+}

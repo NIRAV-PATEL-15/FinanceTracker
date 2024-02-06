@@ -1,0 +1,15 @@
+<div id="profile-container">
+    <div class="img-container">
+        <img src="https://cdn.pixabay.com/photo/2023/11/27/20/29/autumn-8416137_640.png" alt="profile-pic"
+            class="profile-pic">
+    </div>
+    <div class="name-container">
+        <a  [routerLink]="profileLink" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}" class="user-name">Jhon Doe</a>
+    </div>
+    <div class="wallet-amount-container">
+        <div class="wallet-icon"><img class="wallet-icon-img" src="https://img.icons8.com/wallet" alt="wallet--v2" />
+        </div>
+        <div class="wallet-amount">$4000</div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+#menu-container{
+    height: 150px;
+    width: 100%;
+
+}
+
+.menu-items{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+
+.menu-item{
+  
+    align-self: center;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 2px solid lightcyan;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.menu-item:hover{
+    background-color: #d2eff3;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.menu-link{
+    text-decoration: none;
+}
+.menu-link-text{
+    font-size: large;
+    color: black;
+
+}

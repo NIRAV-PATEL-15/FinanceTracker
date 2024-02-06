@@ -1,0 +1,28 @@
+.title-calender-container {
+  height: 70px;
+  //   background-color: lightgray;
+  width: calc(100% - 70px);
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title-container {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title-text {
+      font-size: 30px;
+    }
+  }
+
+  .datepicker-container {
+    .date-input-box {
+      padding: 8px 15px ;
+      border-radius: 8px;
+     
+    }
+  }
+}
